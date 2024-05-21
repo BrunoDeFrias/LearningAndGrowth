@@ -1,4 +1,4 @@
-Avant de commencer, quelques tips de base pour utiliser markdown : -->
+<!-- Avant de commencer, quelques tips de base pour utiliser markdown :
 
 _ce_ (pour écrire en italique)
 **vraiment** (pour écrire en gras)
@@ -49,4 +49,4 @@ formater les paragraphes : il faut garder les espaces pour faire un seul bloc, s
 Et plutôt que de forcer des espaces entre les lignes qui peuvent briser l'unité du paragraphe, rajouter deux espaces à la fin de la phrase (le "." représente un espace)
   Est-ce que je me contredis ?..
   Très bien, alors je me contredis moi-même,..
-  (Je suis grand, j'en ai une multitudes.)
+  (Je suis grand, j'en ai une multitudes.) -->
