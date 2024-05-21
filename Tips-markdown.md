@@ -2,6 +2,12 @@ Avant de commencer, quelques tips de base pour utiliser markdown :
 
 * _ce_ (pour écrire en italique _ ce _ sans les espaces)
 * **vraiment** (pour écrire en gras ** vraiment ** sans les espaces)
+* `surligné` (pour écrire en surligné entre backtips - 3 backtips pour surligné un bloc :)
+  ```
+  def codeblock_example():
+  print("Hello world!")
+  ```
+
 * on peut utiliser les deux dans la même ligne et les enjamber
 * pour titrer : de niveau 1 (le plus gros) à niveau 6 (le plus petit) :
 
@@ -11,10 +17,10 @@ Avant de commencer, quelques tips de base pour utiliser markdown :
 etc.
 
 créer des liens vers d'autres sites web sur le Web
-* **lien inline** : [**Visitez GitHub !**](www.github.com) >> [ton texte](ton lien)
-    tu peux faire de l'emphase avec du gras  
-    tu peux créer des liens à l'intérieur des titres :
-    #### Les dernières nouvelles de [la BBC](www.bbc.com/news)
+* **lien inline** : [**Visitez GitHub !**](www.github.com) >> [ton texte](ton lien)<br>
+tu peux faire de l'emphase avec du gras,<br>
+tu peux créer des liens à l'intérieur des titres :
+#### Les dernières nouvelles de [la BBC](www.bbc.com/news)
 
 * **lien référence** : tu peux ainsi mettre les liens plusieurs et ne le changer qu'à un seul endroit pour les modifier tous
 
