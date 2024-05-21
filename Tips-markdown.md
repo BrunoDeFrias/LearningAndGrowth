@@ -1,20 +1,22 @@
 Avant de commencer, quelques tips de base pour utiliser markdown :
 
-_ce_ (pour écrire en italique)
-**vraiment** (pour écrire en gras)
-on peut utiliser les deux dans la même ligne et les enjamber
-pour titrer : de niveau 1 (le plus gros) à niveau 6 (le plus petit)
-  #Titre de niveau 1
-       ##Titre de niveau 2
-       ###Titre de niveau 3
-       etc.
+* _ce_ (pour écrire en italique _ ce _ sans les espaces)
+* **vraiment** (pour écrire en gras ** vraiment ** sans les espaces)
+* on peut utiliser les deux dans la même ligne et les enjamber
+* pour titrer : de niveau 1 (le plus gros) à niveau 6 (le plus petit) :
+
+# Titre de niveau 1 (# Titre de Niveau 1)
+## Titre de niveau 2 (## Titre de niveau 2)
+### Titre de niveau 3 (### Titre de niveau 3)
+etc.
 
 créer des liens vers d'autres sites web sur le Web
-  lien inline : [**Visitez GitHub !**](www.github.com)
-    (tu peux faire de l'emphase avec du gras)
-    (tu peux créer des liens à l'intérieur des titres : ####Les dernières nouvelles de [la BBC](www.bbc.com/news) )
+* **lien inline** : [**Visitez GitHub !**](www.github.com) >> [ton texte](ton lien)
+    tu peux faire de l'emphase avec du gras  
+    tu peux créer des liens à l'intérieur des titres :
+    #### Les dernières nouvelles de [la BBC](www.bbc.com/news)
 
-  lien référence : tu peux ainsi mettre les liens plusieurs et ne le changer qu'à un seul endroit pour les modifier tous
+* **lien référence** : tu peux ainsi mettre les liens plusieurs et ne le changer qu'à un seul endroit pour les modifier tous
 
     Voulez-vous [voir quelque chose d'amusant][un endroit amusant] ?
     Eh bien, est-ce que j'ai [le site Web pour vous][un autre endroit amusant] !
