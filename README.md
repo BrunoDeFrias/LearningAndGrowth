@@ -6,7 +6,7 @@ J'ai suivi la formation **Dev Web du Wagon entre janvier et mars 2024**. Après 
 
 Pendant cette période, j'ai également pris le temps de réfléchir à mon orientation professionnelle. Entre l'urgence de trouver un emploi à court terme, les demandes de création de sites vitrines de mon entourage, et mon désir à long terme de me spécialiser en cybersécurité, j'ai dû planifier un parcours intelligent qui serve mes objectifs à court et long terme.
 
-### 🚀 Pourquoi JavaScript ?
+### 🚀 Acquérir de solides compétences en JavaScript
 
 1. **Langage le plus utilisé** : JavaScript est actuellement le langage le plus utilisé dans le développement web. Cela me permettra de trouver plus facilement des opportunités dans des projets passionnants à court terme.
 
@@ -34,7 +34,7 @@ I completed the **Web Development Bootcamp at Le Wagon between January and March
 
 During this period, I also took the time to think about my career direction. Between the urgency of finding a job in the short term, requests from my entourage to create showcase websites, and my long-term desire to specialize in cybersecurity, I had to plan an intelligent path that serves both my short-term and long-term goals.
 
-### 🚀 Why JavaScript?
+### 🚀 Acquiring solid skills in JavaScript
 
 1. **Most used language**: JavaScript is currently the most used language in web development. This will help me find opportunities in exciting projects more easily in the short term.
 
