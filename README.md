@@ -6,11 +6,11 @@ J'ai suivi la formation **Dev Web du Wagon entre janvier et mars 2024**. Après 
 
 Pendant cette période, j'ai également pris le temps de réfléchir à mon orientation professionnelle. Entre l'urgence de trouver un emploi à court terme, les demandes de création de sites vitrines de mon entourage, et mon désir à long terme de me spécialiser en cybersécurité, j'ai dû planifier un parcours intelligent qui serve mes objectifs à court et long terme.
 
-### 🚀 Acquérir de solides compétences en JavaScript
+### 🚀 Acquérir de solides compétences en [JavaScript](https://roadmap.sh/javascript)
 
 1. **Langage le plus utilisé** : JavaScript est actuellement le langage le plus utilisé dans le développement web. Cela me permettra de trouver plus facilement des opportunités dans des projets passionnants à court terme.
 
-2. **Réalisations avec React et Next.js** : Apprendre React et Next.js me permettra de concrétiser, à court et moyen terme, les projets de sites vitrines qu'on m'a proposés, renforçant ainsi mes compétences et constituant un portfolio solide.
+2. **Réalisations avec React et Next.js** : Apprendre [React](https://roadmap.sh/react) et Next.js me permettra de concrétiser, à court et moyen terme, les projets de sites vitrines qu'on m'a proposés, renforçant ainsi mes compétences et constituant un portfolio solide.
 
 3. **Cybersécurité à long terme** : JavaScript étant l'un des langages les plus populaires et polyvalents, sa maîtrise est cruciale pour se spécialiser en cybersécurité. Les systèmes utilisant JavaScript sont souvent des cibles privilégiées des cyberattaques, ce qui en fait une compétence essentielle à long terme.
 
