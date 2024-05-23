@@ -1,7 +1,11 @@
 # Logbook 📖
 
 ### 23/05/23
+`Création dossier _Le Wagon Challenges_` :sunglasses: avec les sous-dossiers correspondants aux modules vus durant le bootcamp.<br>
+J'y copie les exercices que je fais au fur et à mesure pour confirmer mes connaissances acquises durant en Ruby. <br>
+J'avais commencé depuis le début mais je n'y intègre que ceux que j'ai commencé depuis la création de ce Repo LearningAndGrowth.<br>
 
+- Module _Ruby_, chapitre _Iterators & Blocks_, `exercice **Splitter** ok` :+1: >>> révision appel de block avec <span style="color:violet;">**yield**</span>.
 
 ### 22/05/23
 :rocket:`Mise à jour de mon profil Github pour le rendre attractif et professionnel`:rocket:
