@@ -34,3 +34,35 @@ Using <span style="color:violet;">appendChild()</span>
 
     // Append it to the list
       list.appendChild(listItem);
+
+## <span style="color:orange;">Accessing content</span>
+
+    <a id="link-id" data-sample="hello" href="https://www.lewagon.com/fr">Le Wagon</a>
+
+    const element = document.getElementById("link-id");
+
+      // Get the text inside the `element`
+    element.innerText
+    element.innerHTML
+      // => "Le Wagon"
+
+      // Get the link (href) of `element`
+    element.attributes.href.value
+
+
+    element.dataset.sample
+      // => "hello"
+
+      // You can also change or add data to the `element`
+    element.dataset.sample = "new value";
+
+## <span style="color:orange;">Styling</span>
+
+    element.style.display = "none";
+    element.style.display = "";
+<br>
+
+    element.classList.add("red");
+    element.classList.remove("red");
+    element.classList.toggle("red");
+    element.classList.contains("red");
