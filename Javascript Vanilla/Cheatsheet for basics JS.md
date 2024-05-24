@@ -125,6 +125,10 @@ with `const` variables reassignment is **forbidden**
     const sayHello = (name) => {
       return `Hello, ${name}!`;
     }
+      // Fat Arrow function
+
+    const sayHello = (name) => `Hello, ${name}!`;
+      // Inline arrow function, with implicit return
 
     sayHi("Seb");
       // Hi, Seb!
