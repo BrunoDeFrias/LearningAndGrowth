@@ -1,6 +1,16 @@
 ## <span style="color:orange;">Finding elements</span>
 
+### :point_right: Basic CSS selectors
+
+    p               /* Type selector  */
+    .red            /* Class selector */
+    #players        /* ID selector    */
+
+#### To select an _id_ :
+
     document.getElementById("some-id")
+
+#### To select a _class_ :
 
 <span style="color:violet;">querySelector</span> returns the **first** element having this class
 
@@ -11,15 +21,26 @@
     document.querySelectorAll(".class-name")
 
 
+### :point_right: Advanced CSS selectors
+
+You can combine them :ok_hand:
+
+    ul .active     /* Descending combinator */
+    ul > .active   /* Child combinator */
+
+**Exemple** : document.querySelector('ul#players > .active a.btn');
+
 ## <span style="color:orange;">Insert HTML</span>
 
-Using <span style="color:violet;">insertAdjacentHTML()</span>:
+Using <span style="color:violet;">insertAdjacentHTML()</span> (more infos [here](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML)):
 
     // Select a `<ul>` element
       const list = document.getElementById("some-list-id");
 
     // Append an `<li>` using `.insertAdjacentHTML`
       list.insertAdjacentHTML("beforeend", "<li>Luke</li>");
+
+More infos [here] about this first method
 
 Using <span style="color:violet;">appendChild()</span>
 
