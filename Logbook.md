@@ -1,7 +1,7 @@
 # Logbook 📖
 
-### 5/05/24
-Suite des cours avec la **manipulation du DOM avec JS**
+### 5/05/24 et 06/05/24
+Suite et fin du premier cours(vidéo) avec la **manipulation du DOM avec JS**
 
 ### 24/05/24
 _Veille_ : découverte de `FreeCodeCamp` (et son application) et son **Responsive Web Design Certification**
