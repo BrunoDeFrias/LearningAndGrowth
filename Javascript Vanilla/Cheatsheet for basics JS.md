@@ -141,3 +141,11 @@ with `const` variables reassignment is **forbidden**
     () => {
       // SOMETHING SMART
     }
+
+### <span style="color:orange;">Iteration</span>
+
+    const list = document.querySelectorAll("li";)
+    
+    list forEach((item) => {
+      console.log(item.innerText);
+    })

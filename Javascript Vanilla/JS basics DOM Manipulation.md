@@ -16,7 +16,7 @@
 
     document.querySelector(".class-name")
 
-<span style="color:violet;">querySelectorAll</span> returns **all** the elements having this class
+<span style="color:violet;">querySelectorAll</span> returns **all** the elements having this class `in an Array`
 
     document.querySelectorAll(".class-name")
 
