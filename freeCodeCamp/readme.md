@@ -20,7 +20,7 @@ Les fichiers sont les projets construits (pas de cours annotés ici.)
 ## Responsive Web Certification
 
 1. Learn HTML by building a cat photo app :white_check_mark:
-2. Learn basic CSS by buildin a cafe menu :on:
-3. Learn CSS colors by building a set of colored markers
+2. Learn basic CSS by buildin a cafe menu :white_check_mark:
+3. Learn CSS colors by building a set of colored markers :on:
 4. Learn HTML forms bu building a Registration form
 5. Survey form

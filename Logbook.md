@@ -1,9 +1,10 @@
 # Logbook 📖
 
-### 27/05/24
+### 27/05/24 et 28/05/24
 Création du dossier FreeCodeCamp. J'y enregistre mon avancement de l'obtention des certifications gratuites de programmation.<br>
 Première certification : **Responsive Web Design**<br>
 - _Learn HTML by buildind a cat photo app_
+- _Learn basic CSS by building a cafe menu_
 
 ### 25/05/24 et 26/05/24
 Suite et fin du premier cours(vidéo) avec la **manipulation du DOM avec JS**
