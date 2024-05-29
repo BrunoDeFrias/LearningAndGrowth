@@ -82,7 +82,10 @@ Using <span style="color:violet;">appendChild()</span>
     element.style.display = "none";
     element.style.display = "";
 <br>
-
+    element.style.color = 'blue';
+    element.style.backgroundColor = '#DDF4FF';
+    element.style.border = '1px solid black';
+<br>
     element.classList.add("red");
     element.classList.remove("red");
     element.classList.toggle("red");
