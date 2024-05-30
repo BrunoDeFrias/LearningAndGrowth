@@ -1,5 +1,8 @@
 # Logbook 📖
 
+### 29/05/24 et 30/05/24
+On commence les exos du chapitre **JS & DOM du Wagon**. On les reprends depuis le début pour confirmer les bases.
+
 ### 27/05/24 et 28/05/24
 Création du dossier FreeCodeCamp. J'y enregistre mon avancement de l'obtention des certifications gratuites de programmation.<br>
 Première certification : **Responsive Web Design**<br>
