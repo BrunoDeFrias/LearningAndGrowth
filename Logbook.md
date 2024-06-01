@@ -1,6 +1,6 @@
 # Logbook 📖
 
-### 29/05/24 et 30/05/24
+### du 29/05/24 au 01/06/24
 On commence les exos du chapitre **JS & DOM du Wagon**. On les reprends depuis le début pour confirmer les bases.
 
 ### 27/05/24 et 28/05/24
