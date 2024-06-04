@@ -1,7 +1,9 @@
 # Logbook 📖
 
-### du 29/05/24 au 03/06/24
+### du 29/05/24 au 04/06/24
 On commence les exos du chapitre **JS & DOM du Wagon**. On les reprends depuis le début pour confirmer les bases.
+Premier chapitre **JS & DOM** avec ces 6 exercices terminées. <br>
+Création des fichiers des 2 derniers exos dans le dossier _Le Wagon Challenges_ pour avoir un aperçu des exos. Découverte de la manipulation des OPbjets en JS et comment itérer dessus sur le dernier exercice avant de voir le cours **Iterators & Events**.
 
 ### 27/05/24 et 28/05/24
 Création du dossier FreeCodeCamp. J'y enregistre mon avancement de l'obtention des certifications gratuites de programmation.<br>
