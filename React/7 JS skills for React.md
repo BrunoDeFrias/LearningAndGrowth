@@ -209,3 +209,120 @@ In React, JSX elements can easily incorporate primitive values using curly brace
         console.log(secondUser);
         // { name: "Reed", age: 70, country: "USA", computer: "Macbook Pro" }
 
+## <span style="color:#007FFF;">Promises + Async/Await Syntax</span>
+
+React applications frequently involve asynchronous code for data fetching, using _Promises with `.then()` and `.catch()`_
+
+    /* Go to react.new and paste this code in to see it work! */
+    import React from "react";
+
+    const App = () => {
+      const [avatar, setAvatar] = React.useState("");
+
+      React.useEffect(() => {
+        /*
+          The first .then() lets us get JSON data from the response.
+          The second .then() gets the url to my avatar and puts it in state.
+        */
+        fetch("https://api.github.com/users/reedbarger")
+          .then((response) => response.json())
+          .then((data) => setAvatar(data.avatar_url))
+          .catch((error) => console.error("Error fetching data: ", error));
+      }, []);
+
+      return <img src={avatar} alt="Reed Barger" />;
+    };
+
+    export default App;
+
+Or the more streamlined _`async/await`_ syntax to handle these operations, enabling error handling with _`try/catch blocks`_ for a more synchronous code appearance.
+
+    ---
+    React.useEffect(() => {
+      /*
+      Note that because the function passed to useEffect cannot be async, we must create a separate function for our promise to be resolved in (fetchAvatar)
+      */
+      async function fetchAvatar() {
+        const response = await fetch("https://api.github.com/users/reedbarger");
+        const data = await response.json();
+        setAvatar(data.avatar_url);
+      }
+
+      fetchAvatar();
+    }, []);
+    ---
+
+## <span style="color:#007FFF;">ES Modules + Import / Export syntax</span>
+
+ES6 enabled easy code sharing via **ES modules**, and with tools like Webpack, assets like images, SVGs, and CSS files can be imported for **dynamic usage** in our code.
+
+    /* We're bringing into our file a library (React), a png image, and CSS styles */
+    import React from "react";
+    import logo from "../img/site-logo.png";
+    import "../styles/app.css";
+
+    function App() {
+      return (
+        <div>
+          Welcome!
+          <img src={logo} alt="Site logo" />
+        </div>
+      );
+    }
+
+    export default App;
+
+ES modules allow JavaScript code to be split into separate files for modularity and reusability, supporting both **named and default imports/exports**, with only one **default export** allowed per file.
+
+    // constants.js
+    export const name = "Reed";
+
+    export const age = 28;
+
+    export default function getName() {
+      return name;
+    }
+
+    // app.js
+    // Notice that named exports are imported between curly braces
+    import getName, { name, age } from "../constants.js";
+
+    console.log(name, age, getName());
+
+Or
+
+    // constants.js
+    const name = "Reed";
+
+    const age = 28;
+
+    function getName() {
+      return name;
+    }
+
+    export { name, age };
+    export default getName;
+
+    // app.js
+    import getName, { name, age } from "../constants.js";
+
+    console.log(name, age, getName());
+
+You can also alias or rename what you are importing using the **`as`** keyword for named imports. The benefit of default exports is that they can be named to whatever you like.
+
+    // constants.js
+    const name = "Reed";
+
+    const age = 28;
+
+    function getName() {
+      return name;
+    }
+
+    export { name, age };
+    export default getName;
+
+    // app.js
+    import getMyName, { name as myName, age as myAge } from "../constants.js";
+
+    console.log(myName, myAge, getMyName());
