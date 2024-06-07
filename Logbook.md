@@ -1,5 +1,9 @@
 # Logbook 📖
 
+### du 05/06/24 au 07/06/24
+Je commence la découverte de React. J'ai crée le **dossier React** et commence à y rajouter mes notes. Le but étant de pouvoir rapidement commencer à comprendre par la suite Next.js. Pour `me préparer à un test technique`.<br>
+Je reviendrai à l'approfondissement des connaissances en JS, essentielles pour moi pour bien maîtriser par la suite React, Next.js.
+
 ### du 29/05/24 au 04/06/24
 On commence les exos du chapitre **JS & DOM du Wagon**. On les reprends depuis le début pour confirmer les bases.
 Premier chapitre **JS & DOM** avec ces 6 exercices terminées. <br>
