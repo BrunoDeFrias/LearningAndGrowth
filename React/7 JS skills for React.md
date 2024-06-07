@@ -123,7 +123,7 @@ By leveraging JavaScript operators like the ternary, &&, and ||, one can **condi
 
     export default App;
 
-## <span style="color:#007FFF;"> Three Array Methods: .map(), .filter(), .reduce()
+## <span style="color:#007FFF;">Three Array Methods: .map(), .filter(), .reduce()</span>
 
 In React, JSX elements can easily incorporate primitive values using curly braces, and arrays can be iterated over using the **.map()** method for rendering each element individually. Additional array methods like **.filter()** can be chained for filtering elements, while understanding that both .map() and .filter() are variations of the **.reduce()** method, capable of transforming array values into any data type, including non-array values.
 
@@ -156,3 +156,56 @@ In React, JSX elements can easily incorporate primitive values using curly brace
     }
 
     export default App;
+
+## <span style="color:#007FFF;">Object Tricks: Property Shorthand, Destructuring, Spread Operator</span>
+
+- 🔦 **Property Shorthand**: A syntax _to create objects_ concisely by using variables directly as property names and values when they are identical.
+
+        const name = "Reed";
+        const user = {
+          // instead of name: name, we can use...
+          name,
+        };
+        console.log(user.name); // Reed
+
+- 🔦 **Destructuring**: A syntax _to extract_ values from objects or arrays into separate variables.
+
+        const user = {
+          name: "Reed",
+          age: 28,
+          isEnglishSpeaker: true,
+        };
+
+        // Dot property access
+        const name = user.name;
+        const age = user.age;
+
+        // Object destructuring
+        const { age, name, isEnglishSpeaker: knowsEnglish } = user;
+        // Use ':' to rename a value as you destructure it
+
+        console.log(knowsEnglish); // true
+
+
+- 🔦 **Spread Operator**: An operator _to copy properties_ of an object or elements of an array into a new context, like a new object or array.
+
+        const user = {
+          name: "Reed",
+          age: 28,
+        };
+
+        const moreUserInfo = {
+          age: 70,
+          country: "USA",
+        };
+
+        // Copy all of user's properties into secondUser
+        const secondUser = {
+          ...user,
+          ...moreUserInfo,
+          computer: "MacBook Pro",
+        };
+
+        console.log(secondUser);
+        // { name: "Reed", age: 70, country: "USA", computer: "Macbook Pro" }
+
