@@ -39,9 +39,7 @@ React components return `JSX elements`
     3. No curly braces for function body
     */
 
-* ⚠️ fct declarations don't worry about **hoisting**, not the case for arrow functions !
-* ⚠️
-
+⚠️ fct declarations don't worry about **hoisting**, not the case for arrow functions !
 
 📌  _**hoisting** = In JS, it is the behavior where variable and function declarations are moved to the top of their containing scope before code execution._
 
@@ -95,3 +93,66 @@ In ES6, A **template literal** in JS is a string enclosed by backticks ( \` ) th
         }
 
 ## <span style="color:#007FFF;">Short Conditionals: &&, ||, Ternary Operator<span>
+
+By leveraging JavaScript operators like the ternary, &&, and ||, one can **conditionally render JSX elements** in React based on variable state, streamlining code and clarifying rendering logic.
+
+    import React from "react";
+
+    function App() {
+      const isLoggedIn = true;
+
+      if (isLoggedIn) {
+        // Shows: Welcome back!
+        return <div>Welcome back!</div>;
+      }
+      return <div>Who are you?</div>;
+    }
+
+    // Shows: Welcome back! using de ternary operator
+      return isLoggedIn ? <div>Welcome back!</div> : <div>Who are you?</div>;
+    }
+    // or inside curly braces
+      return <div>{isLoggedIn ? "Welcome back!" : "Who are you?"}</div>;
+    }
+    // If true: Welcome back!, if false: nothing
+      return <div>{isLoggedIn && "Welcome back!"}</div>;
+    }
+     // If true: nothing, if false: Who are you?
+      return <div>{isLoggedIn || "Who are you?"}</div>;
+    }
+
+    export default App;
+
+## <span style="color:#007FFF;"> Three Array Methods: .map(), .filter(), .reduce()
+
+In React, JSX elements can easily incorporate primitive values using curly braces, and arrays can be iterated over using the **.map()** method for rendering each element individually. Additional array methods like **.filter()** can be chained for filtering elements, while understanding that both .map() and .filter() are variations of the **.reduce()** method, capable of transforming array values into any data type, including non-array values.
+
+    import React from "react";
+
+    function App() {
+      const programmers = ["Reed", "John", "Jane"];
+
+      return (
+        <ul>
+          {/* Returns 'Reed' */}
+          {programmers
+            .filter((programmer) => !programmer.startsWith("J"))
+            .map((programmer) => (
+              <li>{programmer}</li>
+
+            // with .reduce ()
+            .reduce((acc, programmer) => {
+              if (!programmer.startsWith("J")) {
+                return acc.concat(programmer);
+              } else {
+                return acc;
+              }
+            }, [])
+            .map((programmer) => (
+              <li>{programmer}</li>
+            ))}
+        </ul>
+      );
+    }
+
+    export default App;
