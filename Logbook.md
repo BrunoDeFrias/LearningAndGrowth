@@ -1,8 +1,12 @@
 # Logbook 📖
 
 ### du 05/06/24 au 07/06/24
-Je commence la découverte de React. J'ai crée le **dossier React** et commence à y rajouter mes notes. Le but étant de pouvoir rapidement commencer à comprendre par la suite Next.js. Pour `me préparer à un test technique`.<br>
-Je reviendrai à l'approfondissement des connaissances en JS, essentielles pour moi pour bien maîtriser par la suite React, Next.js.
+Je commence la découverte de React. J'ai crée le **dossier React** et commence à y rajouter mes notes. Le but étant de pouvoir rapidement commencer à comprendre par la suite Next.js. Pour `me préparer à un test technique front`.<br>
+Dans le même principe, mais pour `me préparer à un test technique back`, je pars à la découverte de Typescript.
+J'ai crée un dossier _'Javascript Library'_ pour tout rassembler.
+Ca donne le sentiment de partir dans tous les sens, mais je vais peut-être passer un text technique dans ces langages-là. Et puis, au fond le fait de découvrir ces langages, **librairies, framework ou sous-ensemble de JS**, m'a fait approfondir également mes connaissances en JS aussi.
+
+Je reviendrai à l'approfondissement des connaissances en JS _'Vanilla'_, essentielles pour moi pour bien maîtriser par la suite React, Next.js.
 
 ### du 29/05/24 au 04/06/24
 On commence les exos du chapitre **JS & DOM du Wagon**. On les reprends depuis le début pour confirmer les bases.
