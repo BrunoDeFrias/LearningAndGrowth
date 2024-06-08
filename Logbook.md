@@ -1,6 +1,6 @@
 # Logbook 📖
 
-### du 05/06/24 au 07/06/24
+### du 05/06/24 au 08/06/24
 Je commence la découverte de React. J'ai crée le **dossier React** et commence à y rajouter mes notes. Le but étant de pouvoir rapidement commencer à comprendre par la suite Next.js. Pour `me préparer à un test technique front`.<br>
 Dans le même principe, mais pour `me préparer à un test technique back`, je pars à la découverte de Typescript.
 J'ai crée un dossier _'Javascript Library'_ pour tout rassembler.
