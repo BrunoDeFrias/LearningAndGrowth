@@ -1,5 +1,8 @@
 # Logbook 📖
 
+### 10/06/24
+En vu de la préparation d'un test technique le 12/06, dont le fil conducteur de l'entretien sera la modélisation de base de données, j'ai repris les cours sur la DB. 
+
 ### du 05/06/24 au 09/06/24
 Je commence la découverte de React. J'ai crée le **dossier React** et commence à y rajouter mes notes. Le but étant de pouvoir rapidement commencer à comprendre par la suite Next.js. Pour `me préparer à un test technique front`.<br>
 Dans le même principe, mais pour `me préparer à un test technique back`, je pars à la découverte de Typescript.
