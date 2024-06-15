@@ -12,7 +12,7 @@ Reprise des exos du Wagon sur les **iterators et les events** dans JS :
 * List generator :white_check_mark:
 * My first event listener ! :white_check_mark:
 * Lottery scratchcards :white_check_mark:
-* Wagon Race :mag:
+* Wagon Race :white_check_mark:
 
 
 ### 10/06/24 au 11/06/24
