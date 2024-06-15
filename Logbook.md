@@ -1,6 +1,6 @@
 ****# Logbook 📖
 
-## 14/06/24
+## 14/06/24 au 15/06/23
 L'entretien technique n'a pas abouti 🙂‍↔️ . C'était une super expérience et ça m'a donné confiance pour postuler alors que je me freinais toujours 🤓.
 Je **reprends donc mes objectifs** et le parcours de révision que je me suis fixé.
 J'ai, entre-temps, crée un dossier auprès d'OpenClassRoom pour tenter de trouver une alternance, notamment pour mes _objectifs à moyen terme_ :
@@ -8,7 +8,12 @@ J'ai, entre-temps, crée un dossier auprès d'OpenClassRoom pour tenter de trouv
 * Analyste Cybersécurité SOC
 * Administrateur systèmes, réseaux et sécurité (celui-ci me plaît beaucoup)
 
-Reprise des exos du Wagon sur les **iterators et les events** dans JS.
+Reprise des exos du Wagon sur les **iterators et les events** dans JS :
+* List generator :white_check_mark:
+* My first event listener ! :white_check_mark:
+* Lottery scratchcards :white_check_mark:
+* Wagon Race :mag:
+
 
 ### 10/06/24 au 11/06/24
 En vu de la préparation d'un test technique le 12/06, dont le fil conducteur de l'entretien sera la modélisation de base de données, j'ai repris les cours sur la DB.<brb>
