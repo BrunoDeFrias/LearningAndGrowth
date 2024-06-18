@@ -1,6 +1,23 @@
 ****# Logbook 📖
+## 17/06/24 au 18/06/24
+Cours sur OpenClassRoom [Préparez-vous aux tests techniques pour devenir développeur](https://openclassrooms.com/fr/courses/6045521-preparez-vous-aux-tests-techniques-pour-devenir-developpeur).
+J'ai enregistré les 2 tests d'algorithimie réussis proposés par le cours dans un dossier _test_technique_.
 
-## 14/06/24 au 15/06/23
+
+##### <span style="color: darkcyan;">📑 The Four P’s to Problem Solving</span>
+Pour décomposer un **problème complexe en de petits problèmes plus simples à gérer**. Elle repose donc sur quatre grandes étapes :
+* **prep** - c’est l’étape où vous allez essayer de comprendre le problème et de le décomposer en parties plus simples ;
+* **plan** - c’est le moment où vous allez écrire du “[🔎 pseudocode](http://www.cril.univ-artois.fr/~koriche/Algorithmique-2012-SynthesePC.pdf)” qui correspond aux instructions que vous souhaitez réaliser ;
+* **perform** - c’est l’étape où vous transformez votre pseudocode en vrai code ;
+* **perfect** - enfin, vous essayez d’améliorer le code écrit, en le refactorisant, et en traquant d’éventuels bugs.
+Cours terminé.
+
+**QA avec deux alumnis en alternance chez OC**
+
+##### 📺 Visionnage [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite)
+
+
+## 14/06/24 au 15/06/24
 L'entretien technique n'a pas abouti 🙂‍↔️ . C'était une super expérience et ça m'a donné confiance pour postuler alors que je me freinais toujours 🤓.
 Je **reprends donc mes objectifs** et le parcours de révision que je me suis fixé.
 J'ai, entre-temps, crée un dossier auprès d'OpenClassRoom pour tenter de trouver une alternance, notamment pour mes _objectifs à moyen terme_ :
