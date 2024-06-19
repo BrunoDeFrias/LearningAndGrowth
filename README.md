@@ -1,6 +1,6 @@
 ## 📚 A quoi sert ce Repo ?
 
-Ce repository est un espace dédié pour accéder à mes notes de formation et d'étude à tout moment, et surtout pour les rendre visibles aux recruteurs. C'est également un moyen pour moi de suivre mon propre progrès et de maintenir ma motivation en `observant les avancées réalisées et le chemin parcouru`. 
+Ce repository est un espace dédié pour accéder à mes notes de formation et d'étude à tout moment, et surtout pour les rendre visibles aux recruteurs. C'est également un moyen pour moi de suivre mon propre progrès et de maintenir ma motivation en `observant les avancées réalisées et le chemin parcouru`.
 
 J'ai suivi la formation **Dev Web du Wagon entre janvier et mars 2024**. Après une pause bien méritée de 3 semaines :stuck_out_tongue:, j'ai décidé de reprendre depuis le début les cours et les exercices optionnels du Wagon.
 
@@ -10,7 +10,7 @@ Pendant cette période, j'ai également pris le temps de réfléchir à mon orie
 
 1. **Langage le plus utilisé** : JavaScript est actuellement le langage le plus utilisé dans le développement web. Cela me permettra de trouver plus facilement des opportunités dans des projets passionnants à court terme.
 
-2. **Réalisations avec React et Next.js** : Apprendre [React](https://roadmap.sh/react) et Next.js me permettra de concrétiser, à court et moyen terme, les projets de sites vitrines qu'on m'a proposés, renforçant ainsi mes compétences et constituant un portfolio solide.
+2. **Expériences Back-end et Technologies Dérivées de JS** : Je suis actuellement axé sur la recherche de postes back-end. Ma curiosité se porte sur des frameworks et bibliothèques dérivés de JavaScript pour renforcer mes compétences dans ce domaine.
 
 3. **Cybersécurité à long terme** : JavaScript étant l'un des langages les plus populaires et polyvalents, sa maîtrise est cruciale pour se spécialiser en cybersécurité. Les systèmes utilisant JavaScript sont souvent des cibles privilégiées des cyberattaques, ce qui en fait une compétence essentielle à long terme.
 
@@ -38,7 +38,7 @@ During this period, I also took the time to think about my career direction. Bet
 
 1. **Most used language**: JavaScript is currently the most used language in web development. This will help me find opportunities in exciting projects more easily in the short term.
 
-2. **Achievements with React and Next.js**: Learning React and Next.js will allow me to materialize, in the short and medium term, the showcase website projects that have been proposed to me, thereby strengthening my skills and building a solid portfolio.
+2. **Exploring Back-end with JavaScript** : Currently seeking back-end positions, I am keen on learning JavaScript-derived frameworks and libraries to enhance my skills in this domain.
 
 3. **Long-term cybersecurity**: JavaScript is one of the most popular and versatile programming languages, and mastering it is crucial for specializing in cybersecurity. Systems using JavaScript are often prime targets for cyberattacks, making it an essential skill in the long term.
 
