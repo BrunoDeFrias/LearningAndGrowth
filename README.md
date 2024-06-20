@@ -4,15 +4,15 @@ Ce repository est un espace dédié pour accéder à mes notes de formation et d
 
 J'ai suivi la formation **Dev Web du Wagon entre janvier et mars 2024**. Après une pause bien méritée de 3 semaines :stuck_out_tongue:, j'ai décidé de reprendre depuis le début les cours et les exercices optionnels du Wagon.
 
-Pendant cette période, j'ai également pris le temps de réfléchir à mon orientation professionnelle. Entre l'urgence de trouver un emploi à court terme, les demandes de création de sites vitrines de mon entourage, et mon désir à long terme de me spécialiser en cybersécurité, j'ai dû planifier un parcours intelligent qui serve mes objectifs à court et long terme.
+Pendant cette période, j'ai également pris le temps de réfléchir à mon orientation professionnelle. Entre l'urgence de trouver un emploi à court terme et mon désir à court terme de me spécialiser en cybersécurité, j'ai dû planifier un parcours intelligent qui serve mes objectifs.
 
-### 🚀 Acquérir de solides compétences en [JavaScript](https://roadmap.sh/javascript)
+### 🚀 Objectifs
 
-1. **Langage le plus utilisé** : JavaScript est actuellement le langage le plus utilisé dans le développement web. Cela me permettra de trouver plus facilement des opportunités dans des projets passionnants à court terme.
+1. **Renforcer mes compétences en [JavaScript](https://roadmap.sh/javascript)** : JavaScript est actuellement le langage le plus utilisé dans le développement web. Cela me permettra de trouver plus facilement des opportunités dans des projets passionnants à court terme.
 
-2. **Expériences Back-end et Technologies Dérivées de JS** : Je suis actuellement axé sur la recherche de postes back-end. Ma curiosité se porte sur des frameworks et bibliothèques dérivés de JavaScript pour renforcer mes compétences dans ce domaine.
+2. **Explorer le Back-end et Technologies Dérivées de JS** : Axé sur les rôles Backend, j'explore les frameworks et bibliothèques dérivés de JavaScript pour renforcer mes compétences dans ce domaine.
 
-3. **Cybersécurité à long terme** : JavaScript étant l'un des langages les plus populaires et polyvalents, sa maîtrise est cruciale pour se spécialiser en cybersécurité. Les systèmes utilisant JavaScript sont souvent des cibles privilégiées des cyberattaques, ce qui en fait une compétence essentielle à long terme.
+3. **Focus sur la Cybersécurité** : JavaScript étant l'un des langages les plus populaires et polyvalents, sa maîtrise est cruciale pour se spécialiser en cybersécurité. Les systèmes utilisant JavaScript sont souvent des cibles privilégiées des cyberattaques, ce qui en fait une compétence essentielle à long terme.
 
 ### 🌟 Continuité et Évolution
 
@@ -32,15 +32,15 @@ This repository is a dedicated space to access my training and study notes at an
 
 I completed the **Web Development Bootcamp at Le Wagon between January and March 2024**. After a well-deserved 3-week break :stuck_out_tongue:, I decided to start over with the courses and optional exercises from Le Wagon.
 
-During this period, I also took the time to think about my career direction. Between the urgency of finding a job in the short term, requests from my entourage to create showcase websites, and my long-term desire to specialize in cybersecurity, I had to plan an intelligent path that serves both my short-term and long-term goals.
+During this time, I also took the opportunity to reflect on my career direction. Balancing the urgency of finding short-term employment and my desire to specialize in cybersecurity, I mapped out a strategic path to serve my goals.
 
-### 🚀 Acquiring solid skills in JavaScript
+### 🚀 Objectives
 
-1. **Most used language**: JavaScript is currently the most used language in web development. This will help me find opportunities in exciting projects more easily in the short term.
+1. **Strengthening my JavaScript skills**: JavaScript is currently the most used language in web development. This will help me find opportunities in exciting projects more easily in the short term.
 
-2. **Exploring Back-end with JavaScript** : Currently seeking back-end positions, I am keen on learning JavaScript-derived frameworks and libraries to enhance my skills in this domain.
+2. **Exploring Backend and JavaScript-Derived Technologies** : Focused on Backend roles, I'm exploring frameworks and libraries derived from JavaScript to enhance my skills in this area.
 
-3. **Long-term cybersecurity**: JavaScript is one of the most popular and versatile programming languages, and mastering it is crucial for specializing in cybersecurity. Systems using JavaScript are often prime targets for cyberattacks, making it an essential skill in the long term.
+3. **Focus on Cybersecurity:**: JavaScript is one of the most popular and versatile programming languages, and mastering it is crucial for specializing in cybersecurity. Systems using JavaScript are often prime targets for cyberattacks, making it an essential skill in the long term.
 
 ### 🌟 Continuity and Evolution
 
