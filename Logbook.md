@@ -1,7 +1,8 @@
 # Logbook 📖
 
-#### 19/06/24
+#### 19/06/24 au 20/06/24
 Exercice optionnel _Le Wagon_ Javascript : réalisation du Minesweeper.
+###### 📺 Poursuite du visionnage [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite)
 
 #### 17/06/24 au 18/06/24
 Cours sur OpenClassRoom [Préparez-vous aux tests techniques pour devenir développeur](https://openclassrooms.com/fr/courses/6045521-preparez-vous-aux-tests-techniques-pour-devenir-developpeur).
