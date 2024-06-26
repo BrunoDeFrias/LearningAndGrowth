@@ -78,3 +78,30 @@ Elle est le **régulateur des données personnelles** : elle aide les profession
 
 * **Supply chain** (ou *attaque de la chaîne logistique*)
   ↪️ attaquer une cible via un de ses fournisseurs, en 2 tps, SI du fournisseur puis sur la cible finale.
+
+## <span style="color:darkcyan;">Détection de la présence d'attaquants</span>
+
+📚 **Logs** (ou **journaux d'évènements**) : chaque évènement qui se produit dans le SI (ouvrir un fichier, supprimer un dossier, accéder à une application…) sont tracées
+↪️ permettent aux équipes de surveillance et de détection de vérifier si des events sont anormaux.
+
+Cela grâce à un outil `SIEM`.
+
+📚 **SIEM** (*Security Information & Event Management*, ou *gestion des informations et des événements de sécurité*) : permet de centraliser et d'analyser les traces dispos sur les différents éléments composant le SI;
+
+#### L'équipe SOC (Security Operations Center)
+
+➡️ Chargée de la détection d'activités suspectes ou malveillantes
+
+* définir les événements qui doivent déclencher une alerte de sécurité ;
+* paramétrer les outils en fonction des besoins ;
+* mettre à jour régulièrement les règles de détection entraînant les alertes, et les procédures associées ;
+* recevoir, trier et prioriser les alertes reçues via les outils mis en place ;
+* analyser l’impact des incidents détectés ;
+* alerter à un niveau supérieur si l’impact est important et/ou si la remédiation nécessite d’impliquer d’autres équipes (équipes de réponse à incident, notamment) ;
+* proposer des recommandations pour remédier à certains incidents.
+
+1. `Analyste de la menace `, ou *analyst threat intelligence*
+   ➡️ chargée d'étudier l'évolution de la menace qui pèsent sur les organisations.*
+     * collecter et analyser des données sur les attaquants
+     * communiquer aux équipes chargées de détection sur ces attaquants potentiels
+  ☝🏻 faire de la *veille*
