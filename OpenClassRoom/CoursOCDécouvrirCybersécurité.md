@@ -105,3 +105,49 @@ Cela grâce à un outil `SIEM`.
      * collecter et analyser des données sur les attaquants
      * communiquer aux équipes chargées de détection sur ces attaquants potentiels
   ☝🏻 faire de la *veille*
+<br>
+
+### Les grandes étapes d’un incident selon l’ANSSI
+
+<p align="center">
+<img src="https://user.oc-static.com/upload/2024/06/21/17189636320327_Cyberse%CC%81curite_Static_01%20%281%29.png" alt="Temps de gestion d'incident" width="500" height="auto"></p>
+
+#### Gestion de crise (pilotage)
+
+1. Mobiliser les personnes et ressources nécessaires via une organisation en **cellules de crise**
+
+📚 **Cellule de crise** : regroupement de personnes ayant comme priorité la résolution de la crise (processus ,moyens et outils préalablement définis) divisible en plusieurs cellules en fonction de la taille de l'entreprise, *dont la coordination et la communication entre elles sont des éléments clés de la gestion de la crise*
+
+  * `cellule de crise stratétgique/décisionnelle` gérée par la direction de l'hôpital
+  * `cellule de crise opérationnelle /technique` gérée pas le RSSI
+  * `cellule de crise opérationnelle /métier` gérée par les membres de l'équipe du métier
+
+2. Mettre en place les outils de communication entre les parties prenantes
+
+📚 **Mode dégradé** : mode de fonctionnement sans les ressources (outils, locaux, personnel, etc.) habituelles
+➡️ pour assurer la reprise des opérations le plus tôt possible et sans risque pour le SI
+
+* **Pour la cellule de crise stratégique / décisionnelle** :
+<p align="center">
+<img src="https://user.oc-static.com/upload/2023/05/15/16841576590746_P2C2-1%20%282%29.png" alt="objectifs de la cellule de crise stratégique" width="500" height="auto"></p>
+
+☝🏻 `PCA` : réduire les impacts d'indisponibilité des services menés habituellement par une organisation.
+
+* **Pour la cellule de crise opérationnelle /technique**
+
+<p align="center">
+<img src="https://user.oc-static.com/upload/2023/05/15/16841578939016_P2C2-2%20%282%29.png" alt="objectifs de la cellule de crise opérationnelle" width="500" height="auto"></p>
+
+⚠️ Les gestion de la crise réside en grande partie dans une bonne **communication**, avec les **équipes Communication** pour informer l'extérieur
+
+#### Investigations
+
+➡️ **Équipes d'investigation** après les premières investigations de l'équipe SOC, sur les incidents très complexes
+
+* À quelles données, applications du système informatique, l’attaquant a-t-il eu accès ?
+* Quelles actions a-t-il menées ?
+* Comment est-il entré dans le système d'information ?
+
+📚 **Analyse forensique** (*digital forensics*) : investigations numériques souvent menées par :
+* **CERT** (*Computer Emergency Response Team*, ou *équipe de réponse aux urgences informatiques*)
+* **CIRST** (*Computer Security Incident Response Team*, ou équipe de réponse aux incidents de sécurité informatique)
