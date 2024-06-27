@@ -151,3 +151,15 @@ Cela grâce à un outil `SIEM`.
 📚 **Analyse forensique** (*digital forensics*) : investigations numériques souvent menées par :
 * **CERT** (*Computer Emergency Response Team*, ou *équipe de réponse aux urgences informatiques*)
 * **CIRST** (*Computer Security Incident Response Team*, ou équipe de réponse aux incidents de sécurité informatique)
+
+Menée en **amont** (veille), **pendant** (collecte et analyse) et **après** (rapport et piste d'amélioration)
+
+#### Remédiation
+
+📚 (par l'ANSSI) projet de reprise de contrôle d'un SI compromis et rétablissement d'un état de fonctionnement suffisant
+
+Par la cellule de crise opérationnelle / technique :
+1. **Endiguement** : empêcher l'attaquant de progresser dans le système d'information
+2. **Éviction** : chasser l'attaquant du coeur du SI pour en rétablir la confiance
+3. **Éradication** : éliminer tout accès de l'attaquant des composants du SI
+4. **Reconstruction** : En parallèle de l'*éviction* et de l'*éradication*, reconstruire et renforcer la sécurité de SI pour mieux résister à la présente attaque aux prochaines.
