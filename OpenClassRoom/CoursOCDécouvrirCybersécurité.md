@@ -182,3 +182,57 @@ Lors de la **reconstruction** :
 📚 **résilience d'un SI** : capacité à fonctionner en cas d'incident ou de crise, à retrouver son fonctionnement normal le plus rapidement et le plus efficacement possible.
 🕵🏻‍♂️ **Responsable de gestion de crise** pour assurer et améliorer la *résilience* d'une organisation
 ☝🏻 **participation à des exercices** pour assurer la résilience du SI en `testant la préparation de ses équipes et la pertinence de ses documents (procédure de gestion de crise, PCA, PRA)`
+
+## <span style="color:darkcyan;">Organisation des professionnels de la cybersécurité</span>
+
+### Les réglementations
+
+Entre autres :
+* 📚 **[RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees)** (*Règlement général sur la protection des données*) : règlement européen qui impose la sécurité à caractère personnel (art. 32) ou encore la notification à l'autorité de contrôle d''une violation des données à caractère personnel (art. 33)
+* **La protection des infrastructures vitales** via la *loi de programmation militaire (LPM)* qui impose pour les OIV (Opérateurs d'Importance Vitale) des règles strictes renforçant la sécurité des organisations vitales pour la France.
+* **Certification HDS** : hébergement de données de santé
+* **PCI-DSS** (*Payment Card Industry Data Security Standard*) : pour encadrer la sécurité des paiements avec CB
+
+### Les organisations diverses
+
+* Les **régulateurs** (comme la CNIL) : qui posent les règles communes, des obligations légales à respecter
+* les **fournisseurs de services sépcialisés en cybersécurité**
+* les **éditeurs de solutions de sécurité**
+* les **organisations publiques** qui collaborent avec les **agences gouvernementales de cybersécurité**
+  * ANSSI (France)
+  * l’ENISA (European Union Agency for Cybersecurity) au niveau européen
+  * le NCSC (National Cyber Security Centre, ou Centre national de cybersécurité) en Grande-Bretagne
+  * Le CCB (Centre for Cybersecurity Belgium) en Belgique ;
+  * le CISA (Cybersecurity & Infrastructure Security Agency) aux États-Unis.
+
+> Ces agences ont pour mission
+> * coordonner les efforts concernant la cybersécurité sur leur territoire
+> * accompagner les organisations et les particuliers dans la lutte contre les cyberattaques, notamment en fournissant des ressources et des services
+> * agir dans les domaines politique, diplomatique et militaire pour protéger les infrastructures critiques du ou des pays concernés.
+
+* les **institutions internationales non gouvernementales** publiant des documents qui font référence
+  * **l'ISO** (*Internation Standard Organization*) : ISO 27000 (en particulier la norme ISO 27001 sur le management de la sécurité de l’information) pour la cybersécurité
+  * le **NIST** (*National Institute of Standards and Technology*) : a publié le référentiel `cybersecurity framework`
+* les **associations sépcialisées**
+  * le **CLUSIF**
+  * le **CESIN**
+  * le **CLub 27001**
+
+###  Valeurs portées par les acteurs de la cybersécurité
+
+* **🫱🏻‍🫲🏿 Coopération entre tous les acteurs**
+* **💪 Résilience**
+* **🙏🏻 Humilité et amélioration continue**
+
+###  Les équipes qui mettent en oeuvre la cybersécurité
+* Equipe informatique ou équipe IT en collaboration forte avec
+* Equipe de cybersécurité
+* Equipe de développement
+
+⚠️ **Enjeux** : introduire le plus en amont possible la sécurité par ces équipes
+↪️ 📚 **sécurité "by design" et "by default**
+
+🕵🏻‍♂️ **Ingénieur / responsable de la sécurité applicative** ou *security champions* au sein de l'équipe de développement ou **DevSecOps** pour  nommer l'intéfration de la sécurité à la chaîne de développement.
+🕵🏻‍♂ **️Architecte sécurité** : responsable des choix techniques des projets, et s'assure qu'ils repectent les exigences de sécurité
+🕵🏻‍♂ **️Auditeur de cybersécurité** : évaluation indépendantes de cybersécurité sur des sujets spécifiques de conformité (ISO 27001, RGPD, etc.)
+`🕵🏻‍♂️ **Pentester** (ou *Auditeur de sécurité technique*) : évalue l'efficacité des mesures techniques de sécurité mises en place pour protéger des solutions. Il teste la sécurité en simulant des attaques, et propose des plans de correction aux vulnérabilités trouvées`
