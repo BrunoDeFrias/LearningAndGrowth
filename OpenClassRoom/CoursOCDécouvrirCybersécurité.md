@@ -131,7 +131,7 @@ Cela grâce à un outil `SIEM`.
 <p align="center">
 <img src="https://user.oc-static.com/upload/2023/05/15/16841576590746_P2C2-1%20%282%29.png" alt="objectifs de la cellule de crise stratégique" width="500" height="auto"></p>
 
-☝🏻 `PCA` : réduire les impacts d'indisponibilité des services menés habituellement par une organisation.
+☝🏻 `PCA` (*Plan de continuité d'activité*): réduire les impacts d'indisponibilité des services menés habituellement par une organisation.
 
 * **Pour la cellule de crise opérationnelle /technique**
 
@@ -163,3 +163,22 @@ Par la cellule de crise opérationnelle / technique :
 2. **Éviction** : chasser l'attaquant du coeur du SI pour en rétablir la confiance
 3. **Éradication** : éliminer tout accès de l'attaquant des composants du SI
 4. **Reconstruction** : En parallèle de l'*éviction* et de l'*éradication*, reconstruire et renforcer la sécurité de SI pour mieux résister à la présente attaque aux prochaines.
+
+Lors de la **reconstruction** :
+
+**Reprise** (*recovery*) : nettoyage, récupération des données (isolées, inaccessibles et saines), redémarrage des applications - ☝🏻 Bien connaître son SI
+
+☝🏻 **PRA** (*Plan de reprise d'activité*) : essentiel pour prioriser les actions lors de cette phase
+
+**Renforcement du SI** :
+  * passer à une version Windows plus récente, avec les dernières maj de sécurité
+  * installer de nvx outils de détection des cyberattaques
+  * sensibiliser les users du SI au phishing
+  * améliorer ses procédures utiles en cas d'attaques
+
+➡️ **Retour d'expérience** (ou *RETEX*) organisées à chaud et à froid pour qu'en découle un **plan d'action**
+↪️ = `améliorer la résilience de son SI`
+
+📚 **résilience d'un SI** : capacité à fonctionner en cas d'incident ou de crise, à retrouver son fonctionnement normal le plus rapidement et le plus efficacement possible.
+🕵🏻‍♂️ **Responsable de gestion de crise** pour assurer et améliorer la *résilience* d'une organisation
+☝🏻 **participation à des exercices** pour assurer la résilience du SI en `testant la préparation de ses équipes et la pertinence de ses documents (procédure de gestion de crise, PCA, PRA)`
