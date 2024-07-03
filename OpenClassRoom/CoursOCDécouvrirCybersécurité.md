@@ -236,3 +236,39 @@ Entre autres :
 🕵🏻‍♂ **️Architecte sécurité** : responsable des choix techniques des projets, et s'assure qu'ils repectent les exigences de sécurité
 🕵🏻‍♂ **️Auditeur de cybersécurité** : évaluation indépendantes de cybersécurité sur des sujets spécifiques de conformité (ISO 27001, RGPD, etc.)
 `🕵🏻‍♂️ **Pentester** (ou *Auditeur de sécurité technique*) : évalue l'efficacité des mesures techniques de sécurité mises en place pour protéger des solutions. Il teste la sécurité en simulant des attaques, et propose des plans de correction aux vulnérabilités trouvées`
+
+### Les équipes qui gèrent les priorités
+
+📚 **Approche par le risque** : prioriser une liste de tâches qui peut sembler infinie
+
+🕵🏻‍♂️ **Analyste des risques cybersécurité** : réalise des analyses de risques sur la base de processus de gestion des risques préalablement établies.
+* identifier ce que l’entreprise souhaite protéger
+* identifier, évaluer et prioriser les risques pesant sur l’organisation ou sur des périmètres spécifiques
+* proposer un plan d’action permettant de traiter les risques identifiés
+* faire valider et suivre la mise en œuvre du plan de traitement des risques
+* communiquer avec les parties prenantes et leur rapporter les informations pertinentes
+
+📚 **Risques en termes de conformité** : risques pouvant avoir des forts impacts légaux (sujets de conformité légale ou contractuelle : gestion des fournisseurs et des contrats, droit de propriété intellectuelle, protection des données personnelles, clauses de confidentialités dans les contrats des employés, etc.)
+↪️ 🕵🏻‍♂️ **Chargé de conformité** : avec des normes et des réglementations de cybersécurité
+* identifier les manquements en termes de conformité à des normes ou réglementations
+* définir un plan de mise en conformité et piloter la mise en œuvre de ce plan
+* coordonner les parties prenantes internes et externes participant à la mise en conformité
+* contribuer à la stratégie de cybersécurité sur le volet conformité
+
+ 🕵🏻‍♂️ **délégué à la protection des données** (DPD ou DPO pour *Data Protection Officer*)
+
+### Comment tout est orchestré
+
+🕵🏻‍♂️ **RSSI** : prévenir et protéger :
+* définir la stratégie et la feuille de route sécurité de l’organisation ou de son périmètre de responsabilité, en fonction des enjeux et des risques identifiés
+* piloter l’organisation sécurité (recrutement, ressources, budget) ;
+* représenter la sécurité en interne (auprès du comité de direction, des employés) et en externe (avec les autorités de régulation, les clients) ;
+* définir les politiques de sécurité et piloter leur implémentation opérationnelle ;
+* assurer la culture sécurité et la sensibilisation des employés ;
+* contrôler le respect des politiques et procédures de sécurité (contrôles permanents, audits) ;
+* selon la taille de l’organisation, le RSSI a également les mains dans l’opérationnel, et participe à la mise en œuvre de la feuille de route définie.
+
+📚 **Zero trust** : vérifier que l'identité de la personne qui réaliser des actions sur le SI est bien celle qu'on pense être.
+
+<p align="center">
+<img src="https://user.oc-static.com/upload/2023/05/22/1684747396215_P3C4-1%20%281%29.png" alt="Organisation de l'équipe sécurité informatique" width="500" height="auto"></p>
