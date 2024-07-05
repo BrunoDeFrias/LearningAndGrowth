@@ -1,5 +1,8 @@
 # Logbook 📖
 
+#### 05/07/24
+Très peu de temps de code. Beaucoup de formalités pour la clôture de ma société et inscription au programme d'alternance d'OC finalisée. Visionnage [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite) terminée. La recherche d'une alternance prend beaucoup de temps également. Je souhaite finir mon Minesweeper maintenant.
+
 #### 19/06/24 au 20/06/24
 Exercice optionnel _Le Wagon_ Javascript : réalisation du Minesweeper.
 ###### 📺 Poursuite du visionnage [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite)
