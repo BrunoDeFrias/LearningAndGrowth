@@ -1,7 +1,12 @@
 # Logbook 📖
 
+#### 09/07/24
+Je bloque sur le Minesweeper et j'ai demandé de l'aide à un des TA du Wagon. Il m'a expliqué où ça bloquait n'ayant lui-même pas fait l'exo. Mais il m'a dit que c'était un exercice difficile.
+Toujours dans l'optique de m'accorder la possibilité de m'orienter également directement dans la Cybersécurité, j'ai commencé entre-temps le cours sur OC [Découvrez le monde des Systèmes d'Information](https://openclassrooms.com/fr/courses/2100086-decouvrez-le-monde-des-systemes-dinformation). C'est très intéressant et même tout autant passionnant que le cours précédent sur la Cybersécurité. J'exclue de moins en moins de m'ouvrir à l'alternance sur un poste d'Administrateur réseau, SI et sécurité, et pas seulement dans la recherche d'une alternance Développeur Backend/Fullstack ou Analayste Cybersécurité SOC.
+`L'urgence est vite de trouver un poste. Tous ces domaines sont passionnants, et selon moi, reliés. Mais je veux absolument acquérir une expérience professionelle et pas seulement théorique.`
+
 #### 05/07/24
-Très peu de temps de code. Beaucoup de formalités pour la clôture de ma société et inscription au programme d'alternance d'OC finalisée. Visionnage [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite) terminée. La recherche d'une alternance prend beaucoup de temps également. Je souhaite finir mon Minesweeper maintenant.
+Très peu de temps de code. Beaucoup de formalités pour la clôture de ma société et inscription au programme d'alternance d'OC finalisée. `Visionnage` [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite) `terminée`. La recherche d'une alternance prend beaucoup de temps également. Je souhaite finir mon Minesweeper maintenant.
 
 #### 19/06/24 au 20/06/24
 Exercice optionnel _Le Wagon_ Javascript : réalisation du Minesweeper.
