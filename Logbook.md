@@ -1,9 +1,11 @@
 # Logbook 📖
 
+#### 11/07/24
+J'ai débloqué la situation avec le *Minesweeper*. C'est un exercice vraiment intéressant, la base HTML est là, qu'il faut compléter et il faut partir from scratch tout le code JS. Je suis très content de voir que j'arrive à mieux manipuler certains concepts. Il me reste un autre bloc de code difficile qui est l'*ouverture en cascade des cellules*.
+
 #### 09/07/24
 Je bloque sur le Minesweeper et j'ai demandé de l'aide à un des TA du Wagon. Il m'a expliqué où ça bloquait n'ayant lui-même pas fait l'exo. Mais il m'a dit que c'était un exercice difficile.
-Toujours dans l'optique de m'accorder la possibilité de m'orienter également directement dans la Cybersécurité, j'ai commencé entre-temps le cours sur OC [Découvrez le monde des Systèmes d'Information](https://openclassrooms.com/fr/courses/2100086-decouvrez-le-monde-des-systemes-dinformation). C'est très intéressant et même tout autant passionnant que le cours précédent sur la Cybersécurité. J'exclue de moins en moins de m'ouvrir à l'alternance sur un poste d'Administrateur réseau, SI et sécurité, et pas seulement dans la recherche d'une alternance Développeur Backend/Fullstack ou Analayste Cybersécurité SOC.
-`L'urgence est vite de trouver un poste. Tous ces domaines sont passionnants, et selon moi, reliés. Mais je veux absolument acquérir une expérience professionelle et pas seulement théorique.`
+Toujours dans l'optique de m'accorder la possibilité de m'orienter également directement dans la Cybersécurité, j'ai commencé entre-temps le cours sur OC [Découvrez le monde des Systèmes d'Information](https://openclassrooms.com/fr/courses/2100086-decouvrez-le-monde-des-systemes-dinformation) pour comprendre les bases de SI.
 
 #### 05/07/24
 Très peu de temps de code. Beaucoup de formalités pour la clôture de ma société et inscription au programme d'alternance d'OC finalisée. `Visionnage` [Découvrez l'Univers de la Cybersécurité](https://openclassrooms.com/fr/courses/8028761-decouvrez-lunivers-de-la-cybersecurite) `terminée`. La recherche d'une alternance prend beaucoup de temps également. Je souhaite finir mon Minesweeper maintenant.
