@@ -100,4 +100,42 @@ Information de provenance :
 ## <span style="color:orange"> Travailler avec la DSI</span>
 💻 **Digitalisation** pour faire face à la pression sur les coûts
 📚️ **Technologie de l'information (IT)**
+🔎 DSI de **libre-service** : autonomisation des métiers avec la mise à disposition en interne d'un portail où ils peuvent sélectionner les ressources IT dont ils ont besoin - Intranet ou **Cloud privé** ( ≠ *cloud public*)
+* **renfonrcer ses échanges** avec les ≠ métiers de l'entreprise
+* **créatrice de valeur** en apportant de l'autonomie aux métiers
 
+#### <span style="color:darkgreen">Les interlocuteurs internes de la DSI</span>
+##### <span style="color:#3e3e3e">Pôle de compétences Études</span>
+🔎 **Conception** et **réalisation**
+ * `Concepteur-développeur`
+ * `Consultant SI`
+ * `Architecte technique`
+ * ##### <span style="color:#3e3e3e">Pôle de compétences Expertise</span>
+* `Directeur de projet`
+* `Expert technique`
+##### <span style="color:#3e3e3e">Pôle de compétences Études</span>
+🔎 Pour maintenir en état de fonctionnement le SI
+* `Technicien d'exploitation`
+* `Reponsable d'exploitation`
+* `Technicien support ou Helpdesk`
+* `Technicien réseaux et Telecoms`
+* `Responsable Réseaux et Telecoms`
+##### <span style="color:#3e3e3e">En complément</span>
+* `Responsable Sécurité des SI (RSSI)`
+* `Directeur des SI (DSI)`
+⚠️ Liste non-exhaustive
+
+#### <span style="color:darkgreen">Les partenaires externes de la DSI</span>
+*Services réalisés par des ESN (Entreprises de Service du Numérique)*
+4 objectifs pour l'externalisation des prestations :
+###### Maîtriser les coûts
+☝🏻 **Priorité stratégique n°1**
+###### Bénéficier des compétences abstentes en interne
+###### Disposer de ressources adaptées au besoin
+###### Accompagner le développement de l'entreprise
+🤓 `L'externalistation permet finalement de libérer des flux de capitaux et des ressources humaines pour les réaffecter sur des priorités stratégiques`
+
+⚠️ 3 limites :
+* perte de maîtrise du SI (*sourcing* de services) : **distinguer les tâches d'administraiton courante des processus à forte valeur ajoutée**
+* dépendance au prestataire
+* dérapage des coûts
