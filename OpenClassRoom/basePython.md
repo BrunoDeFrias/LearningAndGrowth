@@ -13,7 +13,7 @@ print(`f`"{greetings}, I'm {name} and {age} years old and I'm a {new_skill}")
 type()
 print(f"Type nom: {type(nom)}")
 
-### Array
+### List
 plateformes_sociales = ["Facebook", "Instagram", "Snapchat", "Twitter"]
 plateformes_sociales[0] = "Facebook
 plateformes_sociales[-1] = "Twitter"
@@ -36,3 +36,17 @@ plateformes_sociales_tuple = ("Facebook", "Instagram", "TikTok", "Twitter")
     8 in nombres
     False
 
+### Dictionary, "dict"
+
+nouvelle_campagne = {
+"responsable_de_campagne": "Jeanne d'Arc",
+"nom_de_campagne": "Campagne nous aimons les chiens",
+"date_de_début": "01/01/2020",
+"influenceurs_importants": ["@MonAmourDeChien", "@MeilleuresFriandisesPourChiens"]
+}
+
+* **create** a dict : `newDict = {}` or `newDict = dict()`
+  * `newDict[key] = value` (pour créer ou pour accéder à une valeur)
+* **supprimer une paire clé-valeur** : `del newDict[key]`
+* **vérifiez l'existence d'une clé spécifique** :
+`key in newDict` >>> *True* or *False*

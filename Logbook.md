@@ -1,7 +1,11 @@
 # Logbook 📖
 
+#### 15/07/24
+Dans le programme de formation Analyste cybersécurité SOC, il y a un projet autour du langage `Python` que j'ai comménce alors à étudier.
+Après Ruby, c'est très accessible.
+
 #### 11/07/24
-J'ai débloqué la situation avec le *Minesweeper*. C'est un exercice vraiment intéressant, la base HTML est là, qu'il faut compléter et il faut partir from scratch tout le code JS. Je suis très content de voir que j'arrive à mieux manipuler certains concepts. Il me reste un autre bloc de code difficile qui est l'*ouverture en cascade des cellules*.
+J'ai débloqué la situation avec le *Minesweeper*. C'est un exercice vraiment intéressant, la base HTML est là, qu'il faut compléter et il faut partir from scratch tout le code JS. Il me reste idéalement un autre bloc de code difficile qui est l'*ouverture en cascade des cellules*.
 
 #### 09/07/24
 Je bloque sur le Minesweeper et j'ai demandé de l'aide à un des TA du Wagon. Il m'a expliqué où ça bloquait n'ayant lui-même pas fait l'exo. Mais il m'a dit que c'était un exercice difficile.
