@@ -139,3 +139,45 @@ Information de provenance :
 * perte de maîtrise du SI (*sourcing* de services) : **distinguer les tâches d'administraiton courante des processus à forte valeur ajoutée**
 * dépendance au prestataire
 * dérapage des coûts
+
+## <span style="color:orange"> Organiser votre SI</span>
+
+`Complexité` car au carrefour de 3 dimensions (transverse) :
+1. dimension **technique**
+2. **Organisation** : *couplage* de l'orga de l'entreprise et du SI très *étroit*
+3. **Dimension stratégique**
+
+Complexité par son **évolution** qui doit regrouper le nouveau et l'existant
+
+`Conséquences` :
+* **Hétérogénéité**
+* **Couplage fort** entre composants du SI >>> **dépendance** direct ou indirecte
+* Conséquences **financières**, RH et en termes d'activité
+
+#### Moyens pour réduire la complexité du SI
+`À la phase de concetion` : 🕵🏻‍♂️ Réflechir à l'**organisation** qui sera mise en place en fonction des **besoins** et de la **stratégie** de l'entreprise
+
+##### <span style="color:magenta">Méthode UML</span>
+📚 `Langage de modélisation unifié`
+
+<p align="center">
+<img src="https://user.oc-static.com/upload/2018/09/14/15369167711789_image19.png" alt="Représentation UML d'une recette" width="300" height="auto"></p>
+
+`Mise en place de l'architecture technique`
+↪️ Imaginer les différentes briques qui vont composer le SI et leurs intéractions
+⚠️ pas de méthode pour ça, mais plutôt des **bonnes pratiques** :
+  * utiliser les normes reconnues de l'industrie
+  * réduire les dépendances entre briques du SI
+  * **Approche DevOps** : harmoniser les relations entre les équipes de développeurs et celles de production
+  * externaliser
+
+`Dans la phase de production`
+↪️ **Décentralisation** : contruire un SI **modulaire** et **évolutif**
+##### <span style="color:magenta">Urbanisation du SI</span>
+➡️ c'est faire évoluer le SI qu'on ne peut pas reconstruire (à l'image d'une ville) : c'est l'enjeu des SI aujourd'hui
+➡️ évolution su SI sur la **stratégie** et les **besoins des métiers**
+Démarche **top-down** :
+* `Pourquoi` (vision métier)
+* `Quoi` (vision fonctionnelle)
+* `Comment` (vision applicative)
+* `Avec quoi` (vision technique)
