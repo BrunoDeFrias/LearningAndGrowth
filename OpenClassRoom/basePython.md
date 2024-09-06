@@ -50,3 +50,63 @@ nouvelle_campagne = {
 * **supprimer une paire clé-valeur** : `del newDict[key]`
 * **vérifiez l'existence d'une clé spécifique** :
 `key in newDict` >>> *True* or *False*
+
+### Conditions
+
+    if condition:
+      sth
+    elif condition:
+      sth
+    else:
+
+⚠️ ne pas oublier les : après la conditions ou après else
+
+* Opérateurs logiques **and**, **or**, **not**
+* Expressions compartives *Egal à* : a == b | *non égal à* : a != b
+
+Les *matchs case*
+
+    fruit = "pomme"
+    match fruit:
+        case "pomme":
+            print("J'aime les pommes !")
+        case "banane":
+            print("Je n'aime pas les bananes.")
+        case "orange":
+            print("Les oranges sont bonnes pour la santé.")
+        case _:
+            print("Je ne connais pas ce fruit.")
+
+⚠️ ne pas oublier les :
+
+🔎 **input()** équivalent de `get chomp`
+
+### Boucles
+#### For
+
+    races_de_chien = ["golden retriever", "chihuahua", "terrier", "carlin"]
+    for chien in races_de_chien:
+      print(chien)
+
+    for x in range(5):
+      print(x)
+
+#### While
+
+    capacite_maximale = 10
+    capacite_actuelle = 3
+    while capacite_actuelle < capacite_maximale:
+      capacite_actuelle += 1
+
+##### Break
+    for i in range(10):
+      if i == 5:
+        break
+      print(i)
+
+##### Continue
+    liste = [1, 2, 3, 4, 5]
+    for element in liste:
+        if element == 3:
+            continue
+        print(element)
