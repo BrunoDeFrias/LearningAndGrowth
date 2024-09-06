@@ -110,3 +110,8 @@ Les *matchs case*
         if element == 3:
             continue
         print(element)
+
+### Fonctions
+    def calculer_somme(a, b):
+      resultat = a + b
+      return resultat
