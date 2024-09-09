@@ -115,3 +115,39 @@ Les *matchs case*
     def calculer_somme(a, b):
       resultat = a + b
       return resultat
+
+
+### Ecrire du bon code
+1. écrire du code de façon structurée
+2. **DRY** (*Don't Repeat Yourself*)
+3. **Single Responsability** : chaque fontction doit être responsable d'une seule tâche
+4. **Commentez** son code *#comme ceci*
+5. **Documentez** son code (*docstrings*) :
+avec les `"""`
+
+        def somme(a, b):
+          """
+          Cette fonction calcule la somme de deux nombres et retourne le résultat.
+
+          Parameters:
+          a (int): le premier nombre
+          b (int): le deuxième nombre
+
+          Returns:
+          int: la somme de a et b
+          """
+          return a + b
+
+et `help(somme)` affiche la docstring de la fct somme
+6. **Try/except** (affiche un msg d'erreur personnalisé sans faire cracher le programme):
+
+    while True:
+    try:
+      x = int(input("Entrez un nombre entier : "))
+      break
+    except ValueError:
+      print("Oops ! Ce n'est pas un nombre entier. Essayez encore...")
+
+🔎 Tu peux mettre autant de *except* que tu veux
+⚠️ un *except* par type d'erreur, ne pas tout regrouper en une seule erreur
+
