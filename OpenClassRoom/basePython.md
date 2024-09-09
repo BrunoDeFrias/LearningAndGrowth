@@ -139,6 +139,7 @@ avec les `"""`
           return a + b
 
 et `help(somme)` affiche la docstring de la fct somme
+
 6. **Try/except** (affiche un msg d'erreur personnalisé sans faire cracher le programme):
 
     while True:
@@ -151,3 +152,4 @@ et `help(somme)` affiche la docstring de la fct somme
 🔎 Tu peux mettre autant de *except* que tu veux
 ⚠️ un *except* par type d'erreur, ne pas tout regrouper en une seule erreur
 
+7. Respectez les **standards de code** [PEP 8](https://peps.python.org/pep-0008/) et [PEP 20](https://www.python.org/dev/peps/pep-0020/)
