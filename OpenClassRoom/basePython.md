@@ -153,3 +153,38 @@ et `help(somme)` affiche la docstring de la fct somme
 ⚠️ un *except* par type d'erreur, ne pas tout regrouper en une seule erreur
 
 7. Respectez les **standards de code** [PEP 8](https://peps.python.org/pep-0008/) et [PEP 20](https://www.python.org/dev/peps/pep-0020/)
+
+### Importez des packages Python
+#### Importer un module
+    import mon_module.py
+    resultat = mon_module.ma_fonction()
+ou
+
+    from mon_module import ma_fonction
+    resultat = ma_fonction()
+
+⚠️ Il est généralement recommandé de placer toutes les déclarations d'importation en début de fichier Python, avant toute autre instruction.
+
+#### Créer et importer un package
+📚 **Package** = un **dossier** contenant un **ensemble de modules** Python. Les packages permettent **d'organiser** votre code en sous-dossiers, et de créer des hiérarchies de modules.
+
+Pour créer un package, vous devez simplement créer un dossier contenant un fichier nommé `__init__.py`  . Ce fichier est utilisé pour initialiser le package, et peut contenir du code d'initialisation si nécessaire.
+
+    import mon_package.mon_module
+    resultat = mon_package.mon_module.ma_fonction()
+ou
+
+    💡 from mon_package.mon_module import ma_fonction   .
+
+🕵🏻‍♂️ De nombreux packages populaires sont disponibles sur des dépôts en ligne tels que [PyPI](https://pypi.org/), et peuvent être facilement installés à l'aide d'un gestionnaire de packages tel que `pip`  .
+
+#### Installer des packages avec pip
+📚 **pip** = gestionnaire de package Python
+📚 **gestionnaire de package** = outil qui permet d’installer et de gérer des packages supplémentaires dans votre terminal.
+
+    pip install <nom-du-package>
+Pour voir les packages déjà installés :
+
+    pip freeze
+
+📚 Il va afficher une liste de tous les packages existants, qu’on appelle **dépendances**, dans votre terminal.
