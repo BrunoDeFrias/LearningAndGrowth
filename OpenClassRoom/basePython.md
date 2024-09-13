@@ -188,3 +188,28 @@ Pour voir les packages déjà installés :
     pip freeze
 
 📚 Il va afficher une liste de tous les packages existants, qu’on appelle **dépendances**, dans votre terminal.
+
+### Extraction web
+
+📚 **ETL** (Extract, Transform, Load)
+* ➡️ **Récupération** des données d'un site web
+* ➡️ on les **formate** comme on le souhaite
+* ➡️ **stockage** dans un fichier CSV
+
+🌐 Package **Requests** avec la fct `.get()` pour récupérer le code HTML du site
+
+    import requests
+
+    url = "https://www.example.com"
+    page = requests.get(url)
+
+🔎 Il faut maintenant **parser** les éléments que nous voulons
+↪️ avec le package **Beautiful Soup**
+
+    import requests
+
+    from bs4 import BeautifulSoup
+
+    url = "https://www.gov.uk/search/news-and-communications"
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
