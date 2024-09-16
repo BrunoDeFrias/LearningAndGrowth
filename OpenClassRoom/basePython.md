@@ -213,3 +213,11 @@ Pour voir les packages déjà installés :
     url = "https://www.gov.uk/search/news-and-communications"
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
+
+On peut accéder à tous les éléments de la page :
+
+    soup.title
+    soup.title.string
+    soup.find_all('a')
+    soup.find(id="lien1")
+    soup.find_all("p", class_="title")
