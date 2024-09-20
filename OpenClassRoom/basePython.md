@@ -221,3 +221,84 @@ On peut accéder à tous les éléments de la page :
     soup.find_all('a')
     soup.find(id="lien1")
     soup.find_all("p", class_="title")
+
+### Chargez des données avec Python
+#### avec les fonctions intégrées
+
+`fichier = open('chemin_du_fichier', mode d'ouverture)`
+
+*Mode d'ouverture* : par défaut, le mode est la lecture (`"r"`)
+* Lire : `"r"`
+* Écrire (écraser) : `"w"`
+* Continuer d'écrire : `"a"`
+* Lire et écrire (sans écraser) : `"r+"`
+
+Exemple :
+
+    fichier = open("hello.txt", "w")
+    fichier.write("Hello, world!")
+    fichier.close()
+
+Ou avec `with` pour fermer automatiquement le fichier à la fin du bloc :
+
+    with open("file.txt") as fichier:
+        for ligne in fichier:
+            # faire quelque chose avec une ligne
+            print(ligne)
+
+
+#### Package CSV
+
+Package **CSV** de Python - `open()` peut l'utiliser puis utiliser `reader()` et `writer()`
+
+##### Lire les fichiers externes
+
+`reader()` : lire et conversion de chaque ligne dans une liste de string ("," comme séparateur de colonne)
+>Fichier CSV *couleurs_preferees.csv* :
+>nom,metier,couleur_preferee
+>Jacob Smith,Ingénieur en informatique,Violet
+>Nora Scheffer,Stratégiste numérique,Bleu
+>Emily Adams,Responsable Marketing,Orange
+
+    import csv
+
+    with open('couleurs_preferees.csv') as fichier_csv:
+        reader = csv.reader(fichier_csv, delimiter=',')
+        for ligne in reader:
+            print(ligne)
+
+>['nom', 'metier', 'couleur_preferee'] < **en-tête** ☝🏻
+>['Jacob Smith', 'Ingénieur en informatique', 'Violet']
+>['Nora Scheffer', 'Stratégiste numérique', 'Bleu']
+>['Emily Adams', 'Responsable Marketing', 'Orange']
+
+ou `DictReader()` pour prendre en compte l'en-tête et sauvegarde les autres lignes en tant que **dictionnaires** (pas une liste)
+`key: nom de la colonne`
+`valeur: valeur de la colonne`
+
+    import csv
+
+        with open('couleurs_preferees.csv') as fichier_csv:
+            reader = csv.DictReader(fichier_csv, delimiter=',')
+            for ligne in reader:
+                print(ligne['nom'] + " travaille en tant que " + ligne['metier'] + " et sa couleur préférée est " + ligne['couleur_preferee'])
+
+>Jacob Smith travaille en tant que Ingénieur en informatique et sa >couleur préférée est Violet
+>Nora Scheffer travaille en tant que Stratégiste numérique et sa couleur >préférée est Bleu
+>Emily Adams travaille en tant que Responsable Marketing et sa couleur >préférée est Orange
+
+#### Écrire dans des fichiers externes
+
+# Créer une liste pour les en-têtes
+en_tete = ["titre", "description"]
+
+# Créer un nouveau fichier pour écrire dans le fichier appelé « data.csv »
+    with open('data.csv', 'w') as fichier_csv:
+        # Créer un objet writer (écriture) avec ce fichier
+        writer = csv.writer(fichier_csv, delimiter=',')
+        writer.writerow(en_tete)
+        # Parcourir les titres et descriptions - zip permet d'itérer sur deux listes ou plus à la fois
+        for titre, description in zip(titres, descriptions):
+            # Créer une nouvelle ligne avec le titre et la description à ce moment de la boucle
+            ligne = [titre, description]
+            writer.writerow(ligne)
