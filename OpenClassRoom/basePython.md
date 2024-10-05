@@ -17,6 +17,8 @@ print(f"Type nom: {type(nom)}")
 plateformes_sociales = ["Facebook", "Instagram", "Snapchat", "Twitter"]
 plateformes_sociales[0] = "Facebook
 plateformes_sociales[-1] = "Twitter"
+plateformes_sociales[1:3] = ["Instagram", "Snapchat"] # accéder du second élément au 3ème
+plateformes_sociales[:2] = ["Facebook", "Instagram"] # accéder à tous les éléments du début jusqu'au second
 * **ajout** plateformes_sociales.append("Tiktok")
 * **remove** plateformes_sociales.remove("Tiktok")
 * **size** len(plateformes_sociales) >>> 4
