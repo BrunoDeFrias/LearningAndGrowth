@@ -175,7 +175,8 @@ ou
     from mon_module import ma_fonction
     resultat = ma_fonction()
     print(nomModule.variable)
-
+---
+    import geometry as geo # on peut maintenant accéder à geo.aire() ou geo.pi
 ⚠️ Il est généralement recommandé de placer toutes les déclarations d'importation en début de fichier Python, avant toute autre instruction.
 
 #### Créer et importer un package
@@ -202,6 +203,25 @@ Pour voir les packages déjà installés :
 
 📚 Il va afficher une liste de tous les packages existants, qu’on appelle **dépendances**, dans votre terminal.
 
+#### Manipulez des nombres aléatoires avec le module random
+➡️ **import random**
+
+    random.random() => float aléatoire compris entre 0 et 1 non inclus
+    random.uniform(a, b) => float aléatoire compris entre  a  et  b
+    random.randint(a, b) => entier aléatoire compris entre a et b
+---
+    random.gauss(moyenne, écart-type) => selon la loi normale
+##### Sous-échantillonage
+    liste = [1,2, 3, 4, 5]
+    for i in range(3)
+        print(random.choice(liste)) => 1,4,5
+* **avec remise** :
+
+    print(random.choices(liste, k=2)) => 5, 3
+    print(random.choices(liste, k=3)) => 2, 1, 2
+* **sans remise** :
+    print(random.sample(liste, 2)) => 2, 1
+    print(random.sample(liste, 3)) => 1, 3, 2
 ### Extraction web
 
 📚 **ETL** (Extract, Transform, Load)
