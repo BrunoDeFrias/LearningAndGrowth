@@ -84,16 +84,25 @@ Les *matchs case*
 🔎 **input()** équivalent de `get chomp`
 
 ### Boucles
-#### For
+#### For (boucle sur collection)
 
     races_de_chien = ["golden retriever", "chihuahua", "terrier", "carlin"]
     for chien in races_de_chien:
       print(chien)
+---
+    for i in range(0, 5, 1):
+    print(i) # -> affiche de 0 à 4 par pas de 1 (fin - 1)
 
-    for x in range(5):
-      print(x)
+    for i in range(0, 5):
+        print(i) # -> affiche de 0 à 4 également (le pas par défaut est 1)
 
-#### While
+    for i in range(5):
+        print(i) # -> affiche de 0 à 4 également (le début par défaut est 0)
+
+    for i in range(0, 5, 2):
+        print(i) # -> affiche 0, 2 puis 4
+
+#### While (boucle sur condition)
 
     capacite_maximale = 10
     capacite_actuelle = 3
