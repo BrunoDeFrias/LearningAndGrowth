@@ -169,10 +169,12 @@ et `help(somme)` affiche la docstring de la fct somme
 #### Importer un module
     import mon_module.py
     resultat = mon_module.ma_fonction()
+    print(nomModule.variable)
 ou
 
     from mon_module import ma_fonction
     resultat = ma_fonction()
+    print(nomModule.variable)
 
 ⚠️ Il est généralement recommandé de placer toutes les déclarations d'importation en début de fichier Python, avant toute autre instruction.
 
