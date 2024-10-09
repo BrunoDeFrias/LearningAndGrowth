@@ -200,10 +200,13 @@ ou
     pip install <nom-du-package>
 Pour voir les packages déjà installés :
 
-    pip freeze
+    pip freeze # ou pip list
 
 📚 Il va afficher une liste de tous les packages existants, qu’on appelle **dépendances**, dans votre terminal.
 
+Pour voir des infos utilies sur un ou plusieurs paquest installés:
+
+    pip show <package(s)>
 #### Manipulez des nombres aléatoires avec le module random
 ➡️ **import random**
 
