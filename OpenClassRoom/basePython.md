@@ -194,7 +194,7 @@ ou
 
 #### Installer des packages avec pip
 🕵🏻‍♂️ **PyPI** = index de paquets Python (240 000 paquets y sont répertoriés)
-📚 **pip** = gestionnaire de package Python
+📚 **pip** = gestionnaire de package Python, installe par défaut la dernière version du paquet disponible
 📚 **gestionnaire de package** = outil qui permet d’installer et de gérer des packages supplémentaires dans votre terminal.
 
     pip install <nom-du-package>
@@ -207,6 +207,28 @@ Pour voir les packages déjà installés :
 Pour voir des infos utilies sur un ou plusieurs paquest installés:
 
     pip show <package(s)>
+
+#### Système de versioning de paquets
+➡️ les paquets Python sont versionnés pour faciliter le suivi des versions de chacun.
+➡️ Format des versions = `major`, `minor` et `patch` (par ex. 2.24.0)
+* `patch` : correction de bug rétrocompatible
+* `minor` : nouvelle fonctionnalité rétrocompatible
+* `major` : Si le nouvelle élément n'est pas rétrocompatible = **break changing** et peut donc casser un script Python
+##### Maîtrisez le système de versioning des paquets
+    pip install requests==2.1.0
+
+* `pip install requests~=2.2`  installera la version la plus élevée disponible au-dessus de 2.2!  , mais pas 3.0  ni les versions ultérieures.
+* `pip install requests~=2.1.0`  installera la version la plus élevée disponible au-dessus de 2.1.0  , mais pas la version 2.2.0  ni les versions ultérieures.
+* `pip install requests>2.5.0`  installera la version la plus élevée disponible au-dessus de 2.5.0  .
+* `pip install "requests>2.4.0,<2.6.0"`  installera la version la plus élevée disponible supérieure à 2.4.0  , mais inférieure à 2.6.0
+
+### Les environnements virtuels
+📚 espace isolé qui permet d'installer des dépendances spécifiques à un projet sans interférer avec les autres projets ou l'installation globale de Python.
+➡️ Module `venv` pour créer et gérer des environnements virtuels (⚠️ qu'à partir de Python 3.3)
+
+    python -m venv <environment_name> # -m lance le module en tant que script
+    python -m venv env # par convention
+
 #### Manipulez des nombres aléatoires avec le module random
 ➡️ **import random**
 
@@ -326,10 +348,10 @@ ou `DictReader()` pour prendre en compte l'en-tête et sauvegarde les autres lig
 
 #### Écrire dans des fichiers externes
 
-# Créer une liste pour les en-têtes
+##### Créer une liste pour les en-têtes
 en_tete = ["titre", "description"]
 
-# Créer un nouveau fichier pour écrire dans le fichier appelé « data.csv »
+##### Créer un nouveau fichier pour écrire dans le fichier appelé « data.csv »
     with open('data.csv', 'w') as fichier_csv:
         # Créer un objet writer (écriture) avec ce fichier
         writer = csv.writer(fichier_csv, delimiter=',')
