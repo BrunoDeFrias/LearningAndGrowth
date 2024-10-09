@@ -193,6 +193,7 @@ ou
 🕵🏻‍♂️ De nombreux packages populaires sont disponibles sur des dépôts en ligne tels que [PyPI](https://pypi.org/), et peuvent être facilement installés à l'aide d'un gestionnaire de packages tel que `pip`  .
 
 #### Installer des packages avec pip
+🕵🏻‍♂️ **PyPI** = index de paquets Python (240 000 paquets y sont répertoriés)
 📚 **pip** = gestionnaire de package Python
 📚 **gestionnaire de package** = outil qui permet d’installer et de gérer des packages supplémentaires dans votre terminal.
 
