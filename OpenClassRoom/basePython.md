@@ -228,6 +228,13 @@ Pour voir des infos utilies sur un ou plusieurs paquest installés:
 
     python -m venv <environment_name> # -m lance le module en tant que script
     python -m venv env # par convention
+Puis :
+
+    source env/bin/activate # pour activer l'environnement virtuel
+
+⚠️ `pip freeze` >>> aucun paquet d'installé 🤓
+
+Pour quitter l'environnement virtuel : `deactivate`
 
 #### Manipulez des nombres aléatoires avec le module random
 ➡️ **import random**
