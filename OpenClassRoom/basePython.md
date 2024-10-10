@@ -236,6 +236,17 @@ Puis :
 
 Pour quitter l'environnement virtuel : `deactivate`
 
+##### Gérez les environnements virtuels à l'aide du fichier requirements.txt
+➡️ liste des paquets Python dont l'installation est requise dans un environnement virtuel
+
+⚠️ Selon les divers cas possibles dans le développement de logiciels, vous avez plusieurs possibilités :
+
+1. Ne pas spécifier les versions de paquets.
+2. Spécifier les versions de paquets exactes.
+3. Spécifier une plage de versions de paquets pour chaque paquet.
+
+💻 Créer **manuellement** ce fichier et copier les modules (pas les dépendances) **ou** `pip freeze > requirements.txt` (et importe également les dépendances dedans)
+
 #### Manipulez des nombres aléatoires avec le module random
 ➡️ **import random**
 
